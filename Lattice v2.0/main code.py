@@ -3,6 +3,8 @@ from math import pi
 from numpy import array,append
 
 globals().update(lib.parse('input.txt'))  #getting those variables into this code
+# update this path depending upon where your current directory is.
+
 
 # # lattice lengths
 # a = 1.0
