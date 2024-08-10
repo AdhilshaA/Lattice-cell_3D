@@ -132,7 +132,9 @@ def gen_normal(latlen,latang,hklval,figure = False):
         ax.quiver(*normalarrow)
         ax.set_title("cell 3D")
         ax.set(xlabel='X', ylabel='Y', zlabel='Z')
+        # ax.set_aspect('auto')
         plt.tight_layout()
+        plt.axis('square')
         plt.show()
 
 

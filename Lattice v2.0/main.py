@@ -2,7 +2,7 @@ import currlibrary as lib
 from math import pi
 from numpy import array,append
 
-globals().update(lib.parse('input.txt'))  #getting those variables into this code
+globals().update(lib.parse('Lattice v2.0\input.txt'))  #getting those variables into this code
 # update this path depending upon where your current directory is.
 
 

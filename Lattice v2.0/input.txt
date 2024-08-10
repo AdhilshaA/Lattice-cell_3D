@@ -8,7 +8,7 @@ float_numpyarray latlen
 #
 #   dihedral angles (format: alpha beta gamma)
 float_numpyarray latang
-90 90 90
+90 70 70
 #
 #   lattice vectors (a1x a1y a1z, a2x a2y a2z, a3x a3y a3z) "," means next line
 float_numpymat latvec
@@ -18,7 +18,7 @@ float_numpymat latvec
 #
 #   plane miller indices (h k l)
 float_numpyarray planehkl
-5 0 1
+5 1 1
 #
 # EndOfInput
 EOF
