@@ -34,8 +34,8 @@ globals().update(lib.parse('input.txt'))  #getting those variables into this cod
 # calculating lattice vectors from lattice parameters.
 # latvec = lib.gen_latvec_v1(*latlen,*latang) 
 # # print("latvec: \n",latvec)
-
-print("lattice parameters: ",latlen,latang)
+print("##----------------INPUTS-----------------##")
+print("\nlattice parameters: ",latlen,latang,"\n")
 lib.gen_normal(latlen, latang, planehkl, figure = True)
 # print("normal vector:\n",normal)
 # print("normal's angles with axes:\n",lib.angleswithaxes((normal)))
